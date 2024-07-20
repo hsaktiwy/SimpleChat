@@ -96,9 +96,8 @@ Redis serves as the backing store for the channel layer. It is used for message 
 
 ## Running the Application
 
-Just run this executable : ./run.sh
+Just run this executable to Build and Run Redis, Set Up the Backend, Set Up the Frontend (but you need to do this teps manualy [Start the Django Development Server](#Start the Django Development Server),[Start the React Development Server](#Start the React Development Server) ): ./run.sh
 
-### What is does (run.sh) 
 #### 1. Build and Run Redis
 
 1. **Build the Redis Docker Image**:
@@ -139,7 +138,7 @@ Just run this executable : ./run.sh
    python ./backend/manage.py migrate
    ```
 
-5. **Start the Django Development Server**:
+##### Start the Django Development Server
    Launch the Django development server:
    ```sh
    python ./backend/manage.py runserver
@@ -159,7 +158,7 @@ Just run this executable : ./run.sh
    npm install
    ```
 
-3. **Start the React Development Server**:
+##### Start the React Development Server
    Launch the React development server:
    ```sh
    npm start
