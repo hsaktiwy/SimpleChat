@@ -1,7 +1,3 @@
-Sure, here's a README file based on the details you provided. 
-
----
-
 # Simple Chat Application
 
 ## Overview
@@ -173,10 +169,6 @@ Just run this executable : ./run.sh
 
 Open your web browser and go to `http://localhost:3000` to interact with the chat application.
 
----
-
-This guide provides a clear and concise set of instructions for building and running your chat application using Docker for Redis and the standard development environment setup for Django and React. Feel free to modify or add any additional instructions based on your specific setup or requirements.
-
 ## Conclusion
 
-This simple chat application demonstrates how to build a real-time messaging system using Django Channels, Redis, and React. By leveraging WebSockets and the channel layer, the application can broadcast messages to all connected clients in real-time, providing a seamless user experience.
+This simple chat application demonstrates how to build a real-time messaging system using Django Channels, Redis, and React. By leveraging WebSockets and the channel layer, the application can broadcast messages to all connected clients in real-time.
